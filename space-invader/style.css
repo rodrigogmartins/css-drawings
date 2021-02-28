@@ -1,0 +1,40 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 30px;
+  overflow: hidden;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #191923;
+}
+
+:root {
+  --invader-color: #ee589e;
+}
+
+.space-invader {
+  width: 1em;
+  height: 1em;
+  background: var(--invader-color);
+
+  box-shadow: 0 0 0 1em var(--invader-color), 0 1em 0 1em var(--invader-color),
+    -2.5em 1.5em 0 0.5em var(--invader-color),
+    2.5em 1.5em 0 0.5em var(--invader-color), -3em -3em 0 0 var(--invader-color),
+    3em -3em 0 0 var(--invader-color), -2em -2em 0 0 var(--invader-color),
+    2em -2em 0 0 var(--invader-color), -3em -1em 0 0 var(--invader-color),
+    -2em -1em 0 0 var(--invader-color), 2em -1em 0 0 var(--invader-color),
+    3em -1em 0 0 var(--invader-color), -4em 0 0 0 var(--invader-color),
+    -3em 0 0 0 var(--invader-color), 3em 0 0 0 var(--invader-color),
+    4em 0 0 0 var(--invader-color), -5em 1em 0 0 var(--invader-color),
+    -4em 1em 0 0 var(--invader-color), 4em 1em 0 0 var(--invader-color),
+    5em 1em 0 0 var(--invader-color), -5em 2em 0 0 var(--invader-color),
+    5em 2em 0 0 var(--invader-color), -5em 3em 0 0 var(--invader-color),
+    -3em 3em 0 0 var(--invader-color), 3em 3em 0 0 var(--invader-color),
+    5em 3em 0 0 var(--invader-color), -2em 4em 0 0 var(--invader-color),
+    -1em 4em 0 0 var(--invader-color), 1em 4em 0 0 var(--invader-color),
+    2em 4em 0 0 var(--invader-color);
+}
